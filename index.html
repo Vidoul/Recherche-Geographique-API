@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.png" type="image/x-icon">
+  <meta name="description" content="Recherche Géographique">
+  <title>Recherche Géographique</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Recherche Géographique</h1>
+    <form id="searchForm">
+      <label for="searchType">Type de recherche:</label>
+      <select id="searchType" name="searchType">
+        <option value="communes">Commune</option>
+        <option value="regions">Région</option>
+        <option value="departements">Département</option>
+      </select>
+      <label for="searchInput">Rechercher:</label>
+      <input type="text" id="searchInput" required>
+      <button type="submit">Rechercher</button>
+    </form>
+    <div id="resultCount"></div>
+    <div id="results"></div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

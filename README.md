@@ -26,6 +26,10 @@ Cette application web facilite la recherche et l'affichage d'informations géogr
 - JavaScript
 - jQuery
 
+## Image
+
+https://imgur.com/a/JFtJrp9
+
 ## Auteur
 
 VIDAL Vincent
